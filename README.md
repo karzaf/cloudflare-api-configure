@@ -1,6 +1,7 @@
 # python setup
 ```
-wget https://github.com/karzaf/cloudflare-api-configure/blob/main/cloudflare-api-easy-setup.py
+git clone https://github.com/karzaf/cloudflare-api-configure.git
+cd cloudflare-api-configure
 python3 cloudflare-api-easy-setup.py
 ```
 
