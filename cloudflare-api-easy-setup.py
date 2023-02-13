@@ -22,6 +22,7 @@ try:
     os.system("pip3 freeze | grep cloudflare")
     os.system(f"echo 'dns_cloudflare_api_token = ${token}' | sudo tee /root/cloudflare-api-token.ini")
     os.system(f"sudo certbot certonly --dns-cloudflare --dns-cloudflare-credentials /root/cf-api-token.ini -d hcr.jpaul.io")
+    print(bcolors.OKGREEN + "Cloudflare-api-configure All done!!" + bcolors.OKGREEN)
 except:
    print(bcolors.WARNING + "Warning: cmd broken " + bcolors.ENDC)
    print(bcolors.WARNING + "please charge to manual it! https://github.com/karzaf/cloudflare-api-configure/blob/main/README.md" + bcolors.ENDC)
