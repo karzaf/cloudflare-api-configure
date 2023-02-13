@@ -36,7 +36,6 @@ cd python-cloudflare
 python3 setup.py build
 sudo python3 setup.py install
 pip3 freeze | grep cloudflare
-input the your cloudflare Global API Key
 TOKEN="PutYourApiTokenHere"
 echo "dns_cloudflare_api_token = ${TOKEN}" | sudo tee /root/cloudflare-api-token.ini
 sudo certbot certonly --dns-cloudflare --dns-cloudflare-credentials /root/cf-api-token.ini -d hcr.jpaul.io
