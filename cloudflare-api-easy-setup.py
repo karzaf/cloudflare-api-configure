@@ -9,7 +9,7 @@ class bcolors:
     ENDC = '\033[0m'
     BOLD = '\033[1m'
     UNDERLINE = '\033[4m'
-token=str(input(bcolors.OKBLUE+"What is your Global API"+bcolors.OKBLUE))
+token=str(input(bcolors.OKBLUE+"What is your Global API ?  "+bcolors.OKBLUE))
 try:
     os.system("sudo apt upgrade -y")
     os.system("sudo apt update -y")
