@@ -4,9 +4,7 @@ git clone https://github.com/karzaf/cloudflare-api-configure.git
 cd cloudflare-api-configure
 python3 cloudflare-api-easy-setup.py
 ```
-
-Cancel changes
-#Manual Cloudflare-api-install
+# Manual Cloudflare-api-install
 
 ## step-1 Installing pip
 ```
