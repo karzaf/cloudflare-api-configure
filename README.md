@@ -8,7 +8,7 @@ sudo apt install python3-pip -y
 ```
 sudo python3 -m pip install certbot certbot-dns-cloudflare
 ```
-## step-3 Installing certbot
+## step-3 cloudflare setup
 ```
 git clone https://github.com/cloudflare/python-cloudflare
 cd python-cloudflare
@@ -18,9 +18,6 @@ pip3 freeze | grep cloudflare
 ```
 ## step-4 configure the api token
 input the your cloudflare Global API Key
-
-eg:PutYourApiTokenHere
-
 path:https://dash.cloudflare.com/profile/api-tokens
 ```
 TOKEN="PutYourApiTokenHere"
