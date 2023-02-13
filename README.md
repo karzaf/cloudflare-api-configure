@@ -1,7 +1,7 @@
 # python setup
 ```
 wget https://github.com/karzaf/cloudflare-api-configure/blob/main/cloudflare-api-easy-setup.py
-python 3 cloudflare-api-easy-setup.py
+python3 cloudflare-api-easy-setup.py
 ```
 
 Cancel changes
