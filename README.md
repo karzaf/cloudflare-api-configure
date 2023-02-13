@@ -24,6 +24,7 @@ pip3 freeze | grep cloudflare
 ```
 ## step-4 configure the api token
 input the your cloudflare Global API Key
+
 path:https://dash.cloudflare.com/profile/api-tokens
 ```
 TOKEN="PutYourApiTokenHere"
