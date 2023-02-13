@@ -1,4 +1,4 @@
-# cloudflare-aip-install
+# cloudflare-api-install
 
 ## step-1 Installing pip
 ```
